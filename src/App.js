@@ -1,6 +1,7 @@
 import './App.css';
 import Search from './components/search/search';
 
+
 function App() {
 
   const handleOnChange = (searchData) => {
@@ -10,8 +11,10 @@ function App() {
   return (
     <div className="container">
       <Search onSearchChange={handleOnChange} />
+      
     </div>
   );
 }
+
 
 export default App;
